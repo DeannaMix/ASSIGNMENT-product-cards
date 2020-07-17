@@ -1,3 +1,55 @@
 body {
     background-color: salmon;;
 }
+
+.product-container {
+    display: flex;
+}
+
+.product-card-1 {
+    width: 350px;
+    height: 600px;
+    border: solid 5px teal;
+    box-shadow: wheat 10px 5px 5px;
+}
+
+img {
+    display: flex;
+    width: 150px;
+    justify-content:center ;
+}
+
+header {
+    border: 1px solid lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+.product-description {
+    text-align: justify;
+    margin: 0px 5px
+}
+
+.product-availability {
+    background-color: darkgray;
+    color: yellow
+}
+
+ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+h3 {
+    
+}
