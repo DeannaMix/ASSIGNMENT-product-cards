@@ -1,30 +1,30 @@
 body {
-    background-color: salmon;;
+    background-color: #B5838D;
 }
 
 .product-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    border: powderblue solid 5px;
+    /* border: 5px solid #6D6875 ; */
     margin: 50px 0;
 }
 
 .product-card-1 {
     width: 350px;
     height: 600px;
-    border: solid 5px teal;
-    box-shadow: wheat 10px 5px 5px;
+    border: solid 5pX #6D6875;
+    box-shadow: #fc7c80 10px 5px 5px;
 }
 
 img {
     display: flex;
-    width: 130px;
-    justify-content:center ;
+    width: 110px;
+    justify-content: center;
 }
 
 header {
-    border: 1px solid lightblue;
+    border: 1px solid #af5063;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -43,8 +43,8 @@ header {
 }
 
 .product-availability {
-    background-color: darkgray;
-    color: yellow;
+    background-color: #6D6875;
+    color: #E5989B;
     text-align: center;
 }
 
