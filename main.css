@@ -66,3 +66,11 @@ h3 {
     font-family: sans-serif;
     margin: 0 5px;
 }
+
+.SoldOut {
+    position: absolute;
+    width: 300px;
+    height: 700px;
+    top: 780px;
+    left: 150px;
+}
