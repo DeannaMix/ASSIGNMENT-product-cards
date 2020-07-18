@@ -5,16 +5,21 @@ body {
 .product-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     /* border: 5px solid #6D6875 ; */
     margin: 50px 0;
+    width: 90%;
+    
 }
 
 .product-card-1 {
-    width: 350px;
+    width: 30%;
     height: 600px;
-    border: solid 5pX #6D6875;
+    border: solid 5px #6D6875;
     box-shadow: #fc7c80 10px 5px 5px;
+    margin-bottom: 1em;
+    border-radius: 15%;
 }
 
 img {
@@ -24,7 +29,7 @@ img {
 }
 
 header {
-    border: 1px solid #af5063;
+    border-bottom: 1px solid #af5063;
     display: flex;
     justify-content: center;
     text-align: center;
